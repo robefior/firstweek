@@ -1,0 +1,71 @@
+/*This is main style file*/
+
+/*Color scheme
+mid-green #45B39D
+dark blue #21618C
+light grey #F8F9F9
+*/
+
+h1{
+color:#21618C;
+font-size: 22px;
+}
+p,li{
+color: #45B39D
+}
+li{
+color:#45B39D;
+}
+
+.bg-grey{
+background-color:#F8F9F9;
+padding:100px;
+margin: 50px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+table {
+    width:100%;
+	border-collapse: collapse;
+}
+
+
+footer {
+	background-color:#262626;
+	color:#ffffff;
+	text-align: center;
+	padding: 3px;
+}
+
+nav{ 
+    background-color:#F8F9F9;
+	border:1px solid #dedede;
+	color:#ffffff;
+	display:block;
+	overflow:hidden;
+	width:100%;
+}
+
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+}
+
+nav ul li a{
+	color:#000;
+	display:block;
+	line-height:56px;
+	text-decoration:none;
+	padding:10px;
+}
+
+nav ul li:hover{
+	background-color: #000;
+}
+	
+nav ul li:hover a{
+	color:red;
+}
